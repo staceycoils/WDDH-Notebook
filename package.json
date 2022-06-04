@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/staceycoils/WDDH-Notebook/issues"
   },
-  "homepage": "https://github.com/staceycoils/WDDH-Notebook#readme"
+  "homepage": "https://github.com/staceycoils/WDDH-Notebook#readme",
+  "dependencies": {
+    "firebase": "^9.8.2"
+  }
 }
