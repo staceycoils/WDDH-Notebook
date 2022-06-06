@@ -1,10 +1,33 @@
 body {
   text-align: center;
-  color: white;
   background-image: url('https://i.redd.it/6huyds6gmch71.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position-x: center;
   background-color: #282c34;
+}
+
+.App {
+  margin: 4%;
+  border: 1px solid black;
+  padding: 1%;
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+#menu {
+  padding-left: 30%;
+  padding-right: 30%;
+  display: grid;
+  grid-template-rows: repeat(4, 100px);
+  row-gap: 20px;
+}
+
+.menubutton {
+  background-color: blanchedalmond;
+  font-size: 30pt;
+  font-family: cursive;
+  border: 3px solid slategrey;
+  border-radius: 10px;
 }
