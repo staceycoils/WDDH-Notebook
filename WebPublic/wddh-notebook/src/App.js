@@ -3,7 +3,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { Route, Routes } from 'react-router-dom';
 import Menu from './components/Menu';
 import Home from './components/Home';
-import Session from './components/Session';
+import Sessions from './components/Sessions';
 import Error from './components/Error';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
           <Menu />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/session/" element={<Session />} />
+            <Route path="/sessions/:session" element={<Sessions />} />
             <Route path="/*" element={<Error />} />
           </Routes>
       </div>

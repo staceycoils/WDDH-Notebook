@@ -11,7 +11,7 @@ export default function Menu() {
                 Home
             </button>
             <button className='menubutton'
-            onClick={()=>navigate('/session')}>
+            onClick={()=>navigate('/sessions/all')}>
                 Sessions
             </button>
             <button className='menubutton'
